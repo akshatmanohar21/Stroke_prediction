@@ -2,13 +2,13 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('depl1.pkl', 'rb'))
+model = pickle.load(open('final.pkl', 'rb'))
 
 st.title('Will the person get a stroke or not')
 
-age= st.slider("age",10.00,100.00)
-avg_glucose_level= st.slider("avg glucose level",5.00,300.00)
-bmi= st.slider("bmi",1.00,70.00)
+age= st.slider("age",10,100)
+avg_glucose_level= st.slider("avg glucose level",5,300)
+bmi= st.slider("bmi",1,70)
 
 
 
