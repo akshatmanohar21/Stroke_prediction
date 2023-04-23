@@ -6,9 +6,9 @@ model = pickle.load(open('depl.pkl', 'rb'))
 
 st.title('Will the person get a stroke or not')
 
-age = st.slider("age",10,50)
-avg_glucose_level = st.slider("avg glucose level",5.00,500.00)
-bmi = st.slider("bmi",1.00,100.00)
+age= st.slider("age",10.00,50.00)
+avg_glucose_level= st.slider("avg glucose level",5.00,500.00)
+bmi= st.slider("bmi",1.00,100.00)
 
 
 
