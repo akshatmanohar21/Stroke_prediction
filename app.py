@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('depl.pkl', 'rb'))
+model = pickle.load(open('depl1.pkl', 'rb'))
 
 st.title('Will the person get a stroke or not')
 
