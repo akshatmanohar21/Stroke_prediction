@@ -22,7 +22,7 @@ def predict():
     print(label)
 
 
-    if(int(label)==1):
+    if(int(label)==0):
         st.success('The person will get a stroke ')
     else:
         st.success('The person will not get a stroke ')
