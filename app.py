@@ -23,8 +23,8 @@ def predict():
 
 
     if(int(label)==0):
-        st.success('The person will get a stroke ')
+        st.success('The person may get a stroke ')
     else:
-        st.success('The person will not get a stroke ')
+        st.success('The person may not get a stroke ')
 
 trigger = st.button('Predict', on_click=predict)
